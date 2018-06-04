@@ -1,0 +1,10 @@
+apiVersion: app.coreos.com/v1alpha1
+kind: Subscription-v1
+metadata:
+  name: etcd
+  namespace: local
+spec:
+  channel: alpha
+  name: etcd
+  source: tectonic-ocs
+
